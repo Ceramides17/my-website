@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(245, 230, 213)
+}
+
+@font-face {
+    font-family: Bubble;
+    src: url(.../Fonts/NotoSans-Black.ttf);
+}
+
+a {
+    cursor: pointer;
+}
+
+body.font {
+    
+}
+
+.flower {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-weight: lighter;
+}
+
+.rose {
+    font-size: 50px;
+    padding-left: 40px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.daisy {
+    padding-left: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+}
+
+.header-main {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(249, 247, 247);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(249, 247, 247);
+    padding-left: 40px;
+    display: flex;
+}
+
+.header-main-logo img {
+    height: 80px;
+    align-self: center;
+
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(249, 247, 247);
+}
+
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+
+}
+.header-main-nav ul li a {
+    height: 100%
+    display: block;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+
+}
+.header-main-nav ul li a {
+    color: rgb(22, 21, 21);
+}
+
+.header-main-sm {
+    column-gap: 10px;
+    align-items: center;
+    display: flex;
+    width: fit-content
+    height: 100%;
+    background-color: rgb(249, 247, 247);
+    padding-right: 40px
+}
+
+.header-main-sm-fb {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../FB\ LOGOFACE.png)
+    
+}
+
+.header-main-sm-in { 
+    width: 70px;
+    height: 70px;
+    background-image: url(../INSTA\ LOGO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.wrapmain {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+textarea
+{
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+}
